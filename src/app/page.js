@@ -29,6 +29,8 @@ export default function Home() {
         prevIndex + 1 === imageSet.length ? 0 : prevIndex + 1)
     }
 
+    // setCurrentImg((prevIndex) => id === 'previous' ? prevIndex - 1 < 0 ? imageSet.length - 1 : prevIndex - 1 : prevIndex + 1 === imageSet.length ? 0 : prevIndex + 1)
+
   }, [currentImg])
 
   return (
